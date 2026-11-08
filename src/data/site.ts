@@ -20,11 +20,12 @@ export const siteConfig = {
     "IT digitalization",
   ],
   /**
-   * Canonical URL. Set NEXT_PUBLIC_SITE_URL in Vercel (see .env.example).
-   * Falls back to the Vercel deployment URL, then localhost.
+   * Canonical URL. Set NEXT_PUBLIC_SITE_URL on your host (see .env.example).
+   * Falls back to the Netlify or Vercel production URL, then localhost.
    */
   url: (
     process.env.NEXT_PUBLIC_SITE_URL ||
+    (process.env.NETLIFY === "true" ? process.env.URL : undefined) ||
     (process.env.VERCEL_PROJECT_PRODUCTION_URL
       ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
       : "http://localhost:3000")
