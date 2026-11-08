@@ -1,0 +1,163 @@
+# Personal Portfolio Website Development
+
+Create a personal portfolio website with a **simple, clean, modern, professional, and minimalist design**. The website should showcase my professional profile, education, work experience, projects, and achievements.
+
+## 1. Design Direction
+
+- Minimalist, modern, and professional UI.
+- Clean layout with generous whitespace.
+- Elegant typography and consistent spacing.
+- Responsive design for desktop, tablet, and mobile.
+- Smooth animations and subtle hover effects.
+- Avoid excessive gradients, decorations, or unnecessary visual elements.
+- Use a professional color palette, preferably white/off-white background with dark text and subtle accent colors.
+- Make the website visually impressive but not overly complicated.
+- Follow modern portfolio design principles.
+
+## 2. Website Structure
+
+Create the following pages and sections:
+
+### A. Home / Profile
+Create an attractive landing page containing:
+- My name and professional title.
+- Short professional introduction.
+- Profile photo or avatar placeholder.
+- Social links (GitHub, LinkedIn, Email).
+- Resume/CV download button.
+- CTA button: "Explore My Projects".
+- A clean hero section with a strong visual hierarchy.
+
+### B. Education
+Display my educational background in a clean timeline or card layout:
+- University name.
+- Degree / major.
+- Graduation year.
+- Relevant academic achievements.
+
+### C. Experience
+Show my professional experience in a modern timeline or structured card layout:
+- Company name.
+- Position.
+- Employment period.
+- Location.
+- Job description.
+- Key responsibilities.
+- Technologies and tools used.
+- Highlight accomplishments and contributions.
+
+### D. Projects
+Create a dedicated Projects page with a responsive card-based layout.
+
+Each project card should contain:
+- Project thumbnail or screenshot.
+- Project name.
+- Short description.
+- Technology stack badges.
+- Project category.
+- "View Details" interaction.
+
+**Important interaction:**
+When a user clicks a project card, navigate to a dedicated project detail page with a unique URL, for example:
+
+- `/projects/repair-report`
+- `/projects/it-helpdesk`
+- `/projects/data-analytics`
+
+Each project detail page should contain:
+- Project title and overview.
+- Project screenshot gallery.
+- Problem statement.
+- Objectives.
+- Solution and implementation.
+- Key features.
+- Technologies used.
+- My role and contributions.
+- Project outcomes or impact.
+- GitHub repository link (if available).
+- Live demo link (if available).
+- Navigation to other projects.
+- Back to Projects button.
+
+Do not use a modal for project details. Use separate pages with proper routing.
+
+### E. Achievements
+Create an Achievements section/page displaying:
+- Awards.
+- Certifications.
+- Competitions.
+- Organizational experiences.
+- Other professional accomplishments.
+
+Use elegant cards or a timeline with achievement titles, organizations, dates, and descriptions.
+
+## 3. Technical Requirements
+
+Use the following technologies:
+
+- Next.js with App Router.
+- TypeScript.
+- Tailwind CSS.
+- Modern reusable React components.
+- Lucide React icons.
+- Responsive layouts.
+- Proper routing using Next.js App Router.
+- SEO-friendly metadata.
+- Optimized images using Next.js Image.
+- Clean and maintainable project structure.
+
+Ensure:
+- All navigation links work correctly.
+- Project cards navigate to their corresponding detail pages.
+- The website is responsive.
+- Components are reusable.
+- Content is easy to update.
+- No broken links or placeholder interactions.
+- Good accessibility and performance.
+
+## 4. Content Management
+
+Make portfolio content easy to customize without modifying the UI components.
+
+Use structured data files, such as:
+- `profile.ts`
+- `education.ts`
+- `experience.ts`
+- `projects.ts`
+- `achievements.ts`
+
+Each project should have its own slug, description, image, technologies, and detailed content.
+
+Use placeholder content where information is missing, but make it easy to replace with my real information.
+
+## 5. Deployment Preparation
+
+The website will be deployed using Vercel.
+
+Please:
+- Configure the project to be compatible with Vercel.
+- Ensure production builds work correctly.
+- Provide a `.gitignore`.
+- Provide a `.env.example` if environment variables are required.
+- Avoid unnecessary backend services.
+- Use static content where possible.
+- Explain how to deploy the project to Vercel.
+- Explain how to connect the project to GitHub.
+- Explain how to configure a custom domain if needed.
+- Explain how to update the website after deployment.
+
+## 6. Final Design Expectations
+
+The final website should feel like a professional personal portfolio for someone working in **IT, Software Engineering, Data Engineering, and Digitalization**.
+
+Prioritize:
+- Professional presentation.
+- Clean UI/UX.
+- Easy navigation.
+- Strong project showcase.
+- Well-organized project detail pages.
+- Fast loading.
+- Mobile responsiveness.
+- Maintainable code.
+
+Please generate the complete website with a polished UI, working navigation, project detail routing, and deployment-ready configuration.
