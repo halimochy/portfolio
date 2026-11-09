@@ -86,16 +86,16 @@ export const projects: Project[] = [
   },
   {
     slug: "central-web-application",
-    title: "Central Web Application",
+    title: "Cerea – Central Web Application",
     category: "Web Application",
     year: "2026",
     featured: true,
     summary:
       "A central web application with a specialized UI that brings company systems together in one place and improves accessibility for users.",
     overview:
-      "This central web application acts as the single entry point to the company's systems. As the frontend developer, I designed and built its specialized user interface — from wireframes and prototypes to responsive web pages — through continuous review cycles with the Digitalization Supervisor and Department Head.",
+      "Cerea is a central web application that acts as the single entry point to the company's systems. As the frontend developer, I designed and built its specialized user interface — from wireframes and prototypes to responsive web pages — through continuous review cycles with the Digitalization Supervisor and Department Head.",
     thumbnail: cover("it-helpdesk"),
-    thumbnailAlt: "Central web application home page",
+    thumbnailAlt: "Cerea central web application home page",
     gallery: shots(
       "it-helpdesk",
       [
@@ -138,7 +138,7 @@ export const projects: Project[] = [
       { value: "Ongoing", label: "Continuous enhancement" },
     ],
     outcomeSummary:
-      "The application centralizes access to company systems and is continuously enhanced through review cycles with stakeholders.",
+      "Cerea centralizes access to company systems and is continuously enhanced through review cycles with stakeholders.",
   },
   {
     slug: "it-user-satisfaction",
