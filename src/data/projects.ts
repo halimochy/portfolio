@@ -85,28 +85,28 @@ export const projects: Project[] = [
       "The application is currently about 80% complete and in ongoing development toward production deployment.",
   },
   {
-    slug: "moviia",
-    title: "Moviia – Central Web Application",
+    slug: "central-web-application",
+    title: "Central Web Application",
     category: "Web Application",
     year: "2026",
     featured: true,
     summary:
-      "A full-stack central web application that brings company systems together in one place and improves accessibility for users.",
+      "A central web application with a specialized UI that brings company systems together in one place and improves accessibility for users.",
     overview:
-      "Moviia is a central web application that acts as the single entry point to the company's systems. I designed and developed it end to end — from wireframes and prototypes to the responsive interface — through continuous review cycles with the Digitalization Supervisor and Department Head.",
+      "This central web application acts as the single entry point to the company's systems. As the frontend developer, I designed and built its specialized user interface — from wireframes and prototypes to responsive web pages — through continuous review cycles with the Digitalization Supervisor and Department Head.",
     thumbnail: cover("it-helpdesk"),
-    thumbnailAlt: "Moviia central web application home page",
+    thumbnailAlt: "Central web application home page",
     gallery: shots(
       "it-helpdesk",
       [
-        "Moviia home page with links to company applications",
+        "Central web application home page with links to company applications",
         "Application directory view",
         "Responsive layout of the central web application",
       ],
       ["Central home page", "Application directory", "Responsive design"],
     ),
     technologies: ["React", "Vite", "JavaScript", "HTML", "CSS", "Wireframing", "Prototyping"],
-    role: "Web Developer",
+    role: "Frontend Developer",
     duration: "Apr 2026 – Present",
     team: "With the Digitalization Supervisor and Department Head",
     problem: [
@@ -118,7 +118,7 @@ export const projects: Project[] = [
       "Deliver a consistent, responsive and easy-to-use interface.",
     ],
     solution: [
-      "I started with wireframes and prototypes to define the structure and user flow, then built a full-stack web application with a responsive interface.",
+      "I started with wireframes and prototypes to define the structure and user flow, then developed a specialized frontend with responsive web interfaces.",
       "The design and features were refined through continuous review and enhancement cycles with the Digitalization Supervisor and Department Head.",
     ],
     features: [
@@ -129,16 +129,16 @@ export const projects: Project[] = [
     ],
     contributions: [
       "Designed the UI/UX, including wireframes, prototypes and responsive interfaces.",
-      "Developed the full-stack web application.",
+      "Developed the specialized frontend of the central web application.",
       "Ran review and enhancement cycles with the Digitalization Supervisor and Department Head.",
     ],
     outcomes: [
       { value: "1", label: "Central entry point for company systems" },
-      { value: "Full-stack", label: "Designed and built end to end" },
+      { value: "UI/UX", label: "Designed and built the frontend" },
       { value: "Ongoing", label: "Continuous enhancement" },
     ],
     outcomeSummary:
-      "Moviia centralizes access to company systems and is continuously enhanced through review cycles with stakeholders.",
+      "The application centralizes access to company systems and is continuously enhanced through review cycles with stakeholders.",
   },
   {
     slug: "it-user-satisfaction",
@@ -162,7 +162,7 @@ export const projects: Project[] = [
       ["Satisfaction overview", "Breakdown by service", "Survey response details"],
     ),
     technologies: ["Microsoft Forms", "SharePoint", "Power Automate", "Power BI", "DAX", "Power Query"],
-    role: "Data Engineer & Analyst",
+    role: "Data Engineer",
     duration: "Dec 2025 – Jan 2026",
     team: "IT Digitalization team",
     problem: [
