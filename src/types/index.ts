@@ -86,6 +86,8 @@ export interface Project {
   gallery: ProjectImage[];
   technologies: string[];
   featured?: boolean;
+  /** Hidden from the whole site (lists, home page, detail page, sitemap) but kept in the data. */
+  archived?: boolean;
   role: string;
   duration: string;
   team: string;

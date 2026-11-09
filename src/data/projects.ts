@@ -24,9 +24,11 @@ function shots(folder: string, alts: [string, string, string], captions: [string
   }));
 }
 
-export const projects: Project[] = [
+/** Every project, including archived ones. Use `projects` below for anything shown on the site. */
+export const allProjects: Project[] = [
   {
     slug: "repair-report",
+    archived: true, // hidden for now — set to false (or remove) to show it again
     title: "Repair Report Web Application",
     category: "Web Application",
     year: "2025",
@@ -153,6 +155,7 @@ export const projects: Project[] = [
   },
   {
     slug: "it-user-satisfaction",
+    archived: true, // hidden for now — set to false (or remove) to show it again
     title: "IT User Satisfaction Analytics & Dashboard",
     category: "Analytics",
     year: "2025",
@@ -208,6 +211,7 @@ export const projects: Project[] = [
   },
   {
     slug: "safety-induction",
+    featured: true,
     title: "Safety Induction Data Pipeline",
     category: "Data Engineering",
     year: "2025",
@@ -285,6 +289,9 @@ export const projects: Project[] = [
       "Induction records now flow from submission to reporting without manual re-entry. Every valid record has passed a review, expiry dates are consistent, and the safety team can see upcoming and lapsed inductions as soon as the data refreshes.",
   },
 ];
+
+/** Projects shown on the site. Set `archived: true` on an entry to hide it everywhere. */
+export const projects: Project[] = allProjects.filter((p) => !p.archived);
 
 export const projectCategories = Array.from(new Set(projects.map((p) => p.category)));
 
