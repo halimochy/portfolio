@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img">
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#757b87"/></marker>
+<marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2f5d50"/></marker>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#b42318"/></marker>
+</defs>
+<rect width="1600" height="1000" fill="#fafaf8"/>
+<rect x="0" y="0" width="1600" height="1000" fill="#e8f0ed" opacity="0.55"/>
+<circle cx="200" cy="500" r="92" fill="#ffffff" stroke="#2f5d50" stroke-width="4"/>
+<text x="200" y="520" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#2f5d50" text-anchor="middle">01</text>
+<text x="200" y="658" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="38" font-weight="600" fill="#16181d" text-anchor="middle">Capture</text>
+<text x="200" y="704" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="400" fill="#757b87" text-anchor="middle">form submissions</text>
+<path d="M304 500 L388 500" stroke="#2f5d50" stroke-width="5" marker-end="url(#g)"/>
+<circle cx="500" cy="500" r="92" fill="#ffffff" stroke="#2f5d50" stroke-width="4"/>
+<text x="500" y="520" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#2f5d50" text-anchor="middle">02</text>
+<text x="500" y="658" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="38" font-weight="600" fill="#16181d" text-anchor="middle">Ingest</text>
+<text x="500" y="704" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="400" fill="#757b87" text-anchor="middle">event trigger</text>
+<path d="M604 500 L688 500" stroke="#2f5d50" stroke-width="5" marker-end="url(#g)"/>
+<circle cx="800" cy="500" r="92" fill="#ffffff" stroke="#2f5d50" stroke-width="4"/>
+<text x="800" y="520" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#2f5d50" text-anchor="middle">03</text>
+<text x="800" y="658" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="38" font-weight="600" fill="#16181d" text-anchor="middle">Approve</text>
+<text x="800" y="704" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="400" fill="#757b87" text-anchor="middle">quality gate</text>
+<path d="M904 500 L988 500" stroke="#2f5d50" stroke-width="5" marker-end="url(#g)"/>
+<circle cx="1100" cy="500" r="92" fill="#ffffff" stroke="#2f5d50" stroke-width="4"/>
+<text x="1100" y="520" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#2f5d50" text-anchor="middle">04</text>
+<text x="1100" y="658" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="38" font-weight="600" fill="#16181d" text-anchor="middle">Enrich &amp; store</text>
+<text x="1100" y="704" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="400" fill="#757b87" text-anchor="middle">single source</text>
+<path d="M1204 500 L1288 500" stroke="#2f5d50" stroke-width="5" marker-end="url(#g)"/>
+<circle cx="1400" cy="500" r="92" fill="#ffffff" stroke="#2f5d50" stroke-width="4"/>
+<text x="1400" y="520" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#2f5d50" text-anchor="middle">05</text>
+<text x="1400" y="658" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="38" font-weight="600" fill="#16181d" text-anchor="middle">Serve</text>
+<text x="1400" y="704" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="400" fill="#757b87" text-anchor="middle">analytics model</text>
+<path d="M800 396 L800 350" stroke="#b42318" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="800" y="334" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#b42318" text-anchor="middle">rejected → flagged</text>
+<text x="800" y="920" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="26" font-weight="500" fill="#757b87" text-anchor="middle">Illustrative · anonymized</text>
+</svg>

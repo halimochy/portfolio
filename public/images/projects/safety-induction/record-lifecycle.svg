@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img">
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#757b87"/></marker>
+<marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2f5d50"/></marker>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#b42318"/></marker>
+</defs>
+<rect width="1600" height="1000" fill="#fafaf8"/>
+<text x="50" y="78" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#16181d" text-anchor="start">One record, end to end</text>
+<text x="50" y="114" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#757b87" text-anchor="start">How a single induction submission becomes a validated, monitored record — all values are fictional</text>
+<rect x="50" y="160" width="440" height="640" rx="16" fill="#ffffff" stroke="#e7e5df" stroke-width="1.5"/>
+<text x="78" y="204" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#2f5d50" text-anchor="start" letter-spacing="1.5">01 · RAW SUBMISSION</text>
+<text x="78" y="230" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#757b87" text-anchor="start">Captured by the digital form</text>
+<line x1="78" y1="252" x2="462" y2="252" stroke="#e7e5df" stroke-width="1.5"/>
+<rect x="580" y="160" width="440" height="640" rx="16" fill="#ffffff" stroke="#e7e5df" stroke-width="1.5"/>
+<text x="608" y="204" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#2f5d50" text-anchor="start" letter-spacing="1.5">02 · APPROVED &amp; ENRICHED</text>
+<text x="608" y="230" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#757b87" text-anchor="start">After the approval gate and flow</text>
+<line x1="608" y1="252" x2="992" y2="252" stroke="#e7e5df" stroke-width="1.5"/>
+<rect x="1110" y="160" width="440" height="640" rx="16" fill="#ffffff" stroke="#e7e5df" stroke-width="1.5"/>
+<text x="1138" y="204" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#2f5d50" text-anchor="start" letter-spacing="1.5">03 · CLASSIFIED AT EACH REFRESH</text>
+<text x="1138" y="230" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#757b87" text-anchor="start">In the analytics model</text>
+<line x1="1138" y1="252" x2="1522" y2="252" stroke="#e7e5df" stroke-width="1.5"/>
+<text x="78" y="292" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#757b87" text-anchor="start" letter-spacing="0.8">NAME</text>
+<text x="78" y="318" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#16181d" text-anchor="start">Person A</text>
+<text x="78" y="380" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#757b87" text-anchor="start" letter-spacing="0.8">ID NUMBER</text>
+<text x="78" y="406" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#16181d" text-anchor="start">•••• •••• •••• 1234</text>
+<text x="78" y="468" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#757b87" text-anchor="start" letter-spacing="0.8">COMPANY</text>
+<text x="78" y="494" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#16181d" text-anchor="start">Contractor Co. X</text>
+<text x="78" y="556" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#757b87" text-anchor="start" letter-spacing="0.8">POSITION</text>
+<text x="78" y="582" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#16181d" text-anchor="start">Technician</text>
+<text x="78" y="644" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#757b87" text-anchor="start" letter-spacing="0.8">INDUCTION DATE</text>
+<text x="78" y="670" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#16181d" text-anchor="start">13 Jan 2026</text>
+<text x="608" y="288" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">Fields from step 01, plus:</text>
+<text x="608" y="336" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#757b87" text-anchor="start" letter-spacing="0.8">APPROVAL STATUS</text>
+<text x="608" y="362" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#16181d" text-anchor="start"></text>
+<rect x="908" y="320" width="71" height="26" rx="13" fill="#e8f0ed"/><text x="943.5" y="338" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#2f5d50" text-anchor="middle">+ added</text>
+<rect x="608" y="348" width="87" height="26" rx="13" fill="#e8f0ed"/><text x="651.5" y="366" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#2f5d50" text-anchor="middle">Approved</text>
+<text x="608" y="432" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#757b87" text-anchor="start" letter-spacing="0.8">EXPIRY DATE</text>
+<text x="608" y="458" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#16181d" text-anchor="start">13 Jul 2026</text>
+<rect x="908" y="416" width="71" height="26" rx="13" fill="#e8f0ed"/><text x="943.5" y="434" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#2f5d50" text-anchor="middle">+ added</text>
+<text x="608" y="480" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#757b87" text-anchor="start">= induction date + validity period</text>
+<rect x="608" y="540" width="384" height="140" rx="12" fill="#e8f0ed" stroke="#e8f0ed" stroke-width="1.5"/>
+<text x="628" y="576" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#244a40" text-anchor="start">Why this matters</text>
+<text x="628" y="606" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">Expiry is calculated once in the flow,</text>
+<text x="628" y="630" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">so every downstream report uses the</text>
+<text x="628" y="654" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">same value — no manual date maths.</text>
+<text x="1138" y="288" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">Days remaining until expiry decide the status:</text>
+<rect x="1138" y="320" width="384" height="68" rx="12" fill="#e8f0ed" stroke="#e8f0ed" stroke-width="1.5"/>
+<text x="1158" y="350" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#2f5d50" text-anchor="start">Valid</text>
+<text x="1158" y="374" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#454a54" text-anchor="start">More than 30 days remaining</text>
+<rect x="1138" y="404" width="384" height="68" rx="12" fill="#fdf3e1" stroke="#fdf3e1" stroke-width="1.5"/>
+<text x="1158" y="434" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#a15c07" text-anchor="start">Expiring soon</text>
+<text x="1158" y="458" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#454a54" text-anchor="start">30 days or fewer remaining</text>
+<rect x="1138" y="488" width="384" height="68" rx="12" fill="#fdecea" stroke="#fdecea" stroke-width="1.5"/>
+<text x="1158" y="518" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#b42318" text-anchor="start">Expired</text>
+<text x="1158" y="542" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#454a54" text-anchor="start">Past the expiry date</text>
+<text x="1138" y="610" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#757b87" text-anchor="start" letter-spacing="0.8">EXAMPLE TIMELINE FOR PERSON A</text>
+<rect x="1138.0" y="630" width="307.2" height="14" fill="#2f5d50" opacity="0.85"/>
+<rect x="1445.2" y="630" width="46.1" height="14" fill="#a15c07" opacity="0.85"/>
+<rect x="1491.3" y="630" width="30.7" height="14" fill="#b42318" opacity="0.85"/>
+<text x="1138" y="672" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#454a54" text-anchor="start">13 Jan</text>
+<text x="1445.2" y="672" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#454a54" text-anchor="middle">13 Jun</text>
+<text x="1491.28" y="696" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#454a54" text-anchor="middle">13 Jul</text>
+<path d="M502 480.0 L566 480.0" fill="none" stroke="#2f5d50" stroke-width="2" marker-end="url(#g)"/>
+<path d="M1032 480.0 L1096 480.0" fill="none" stroke="#2f5d50" stroke-width="2" marker-end="url(#g)"/>
+<rect x="50" y="838" width="235" height="26" rx="13" fill="#efeee9"/><text x="167.5" y="856" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#454a54" text-anchor="middle">Fictional names and companies</text>
+<rect x="297" y="838" width="155" height="26" rx="13" fill="#efeee9"/><text x="374.5" y="856" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#454a54" text-anchor="middle">Identifiers masked</text>
+<rect x="464" y="838" width="155" height="26" rx="13" fill="#efeee9"/><text x="541.5" y="856" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#454a54" text-anchor="middle">Example dates only</text>
+<text x="50" y="948" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#757b87" text-anchor="start">Illustrative example — anonymized. Not real company data; field names are simplified.</text>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img">
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#757b87"/></marker>
+<marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2f5d50"/></marker>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#b42318"/></marker>
+</defs>
+<rect width="1600" height="1000" fill="#fafaf8"/>
+<text x="50" y="78" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#16181d" text-anchor="start">Safety induction — data engineering flow</text>
+<text x="50" y="114" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#757b87" text-anchor="start">From manual spreadsheets to an event-driven pipeline with an approval gate and a single source of truth</text>
+<text x="52" y="180" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#2f5d50" text-anchor="start" letter-spacing="1.5">01 · SOURCES</text>
+<text x="359" y="180" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#2f5d50" text-anchor="start" letter-spacing="1.5">02 · INGEST</text>
+<text x="666" y="180" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#2f5d50" text-anchor="start" letter-spacing="1.5">03 · VALIDATE</text>
+<text x="973" y="180" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#2f5d50" text-anchor="start" letter-spacing="1.5">04 · TRANSFORM &amp; STORE</text>
+<text x="1280" y="180" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#2f5d50" text-anchor="start" letter-spacing="1.5">05 · SERVE</text>
+<rect x="50" y="210" width="270" height="170" rx="16" fill="#ffffff" stroke="#e7e5df" stroke-width="1.5"/>
+<text x="72" y="250" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#16181d" text-anchor="start">Digital form</text>
+<text x="72" y="282" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">New induction submissions</text>
+<text x="72" y="308" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">from employees &amp; contractors</text>
+<rect x="72" y="336" width="133" height="26" rx="13" fill="#e8f0ed"/><text x="138.5" y="354" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#2f5d50" text-anchor="middle">Microsoft Forms</text>
+<rect x="50" y="470" width="270" height="140" rx="16" fill="#ffffff" stroke="#e7e5df" stroke-width="1.5"/>
+<text x="72" y="510" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#16181d" text-anchor="start">Historical records</text>
+<text x="72" y="542" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">Monthly spreadsheets kept by hand</text>
+<rect x="72" y="566" width="60" height="26" rx="13" fill="#e8f0ed"/><text x="102.0" y="584" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#2f5d50" text-anchor="middle">Excel</text>
+<rect x="357" y="210" width="270" height="230" rx="16" fill="#ffffff" stroke="#e7e5df" stroke-width="1.5"/>
+<text x="379" y="250" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#16181d" text-anchor="start">Ingest &amp; orchestrate</text>
+<text x="379" y="282" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">• Runs on each submission</text>
+<text x="379" y="308" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">• Maps fields to the schema</text>
+<text x="379" y="334" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">• Sends record for approval</text>
+<text x="379" y="360" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">• Writes the result back</text>
+<rect x="379" y="396" width="126" height="26" rx="13" fill="#e8f0ed"/><text x="442.0" y="414" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#2f5d50" text-anchor="middle">Power Automate</text>
+<rect x="664" y="210" width="270" height="230" rx="16" fill="#ffffff" stroke="#e7e5df" stroke-width="1.5"/>
+<text x="686" y="250" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#16181d" text-anchor="start">Approval gate</text>
+<text x="686" y="282" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">Human-in-the-loop review</text>
+<text x="686" y="308" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">by the safety team</text>
+<text x="686" y="334" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">Approved → continues</text>
+<text x="686" y="360" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">Rejected → flagged</text>
+<rect x="686" y="396" width="133" height="26" rx="13" fill="#e8f0ed"/><text x="752.5" y="414" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#2f5d50" text-anchor="middle">Teams Approvals</text>
+<rect x="664" y="470" width="270" height="140" rx="16" fill="#fdecea" stroke="#f3c9c4" stroke-width="1.5"/>
+<text x="686" y="510" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#b42318" text-anchor="start">Rejected</text>
+<text x="686" y="542" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">Stored with status,</text>
+<text x="686" y="568" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">never counted as valid</text>
+<rect x="971" y="210" width="270" height="230" rx="16" fill="#ffffff" stroke="#e7e5df" stroke-width="1.5"/>
+<text x="993" y="250" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#16181d" text-anchor="start">Transform &amp; enrich</text>
+<text x="993" y="282" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">• Write approval status</text>
+<text x="993" y="308" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">• Expiry = induction date</text>
+<text x="993" y="334" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">   + validity period</text>
+<text x="993" y="360" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">• Store or update the record</text>
+<rect x="993" y="396" width="126" height="26" rx="13" fill="#e8f0ed"/><text x="1056.0" y="414" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#2f5d50" text-anchor="middle">Power Automate</text>
+<rect x="971" y="470" width="270" height="140" rx="16" fill="#ffffff" stroke="#e7e5df" stroke-width="1.5"/>
+<text x="993" y="510" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#16181d" text-anchor="start">Central data store</text>
+<text x="993" y="542" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">Single source of truth</text>
+<rect x="993" y="566" width="133" height="26" rx="13" fill="#e8f0ed"/><text x="1059.5" y="584" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#2f5d50" text-anchor="middle">SharePoint List</text>
+<rect x="1278" y="210" width="270" height="230" rx="16" fill="#ffffff" stroke="#e7e5df" stroke-width="1.5"/>
+<text x="1300" y="250" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#16181d" text-anchor="start">Analytics model</text>
+<text x="1300" y="282" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">Days remaining and status:</text>
+<text x="1300" y="308" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">valid · expiring soon · expired</text>
+<text x="1300" y="334" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start"></text>
+<text x="1300" y="360" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start"></text>
+<rect x="1300" y="396" width="126" height="26" rx="13" fill="#e8f0ed"/><text x="1363.0" y="414" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#2f5d50" text-anchor="middle">Power BI · DAX</text>
+<rect x="1278" y="470" width="270" height="140" rx="16" fill="#ffffff" stroke="#e7e5df" stroke-width="1.5"/>
+<text x="1300" y="510" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#16181d" text-anchor="start">Scheduled refresh</text>
+<text x="1300" y="542" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#454a54" text-anchor="start">Keeps the model current</text>
+<rect x="1300" y="566" width="82" height="26" rx="13" fill="#e8f0ed"/><text x="1341.0" y="584" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#2f5d50" text-anchor="middle">Power BI</text>
+<path d="M320 295 L355 295" fill="none" stroke="#757b87" stroke-width="2" marker-end="url(#a)"/>
+<path d="M627 305 L662 305" fill="none" stroke="#757b87" stroke-width="2" marker-end="url(#a)"/>
+<path d="M934 305 L969 305" fill="none" stroke="#2f5d50" stroke-width="2" marker-end="url(#g)"/>
+<path d="M799 440 L799 468" fill="none" stroke="#b42318" stroke-width="2" marker-end="url(#r)"/>
+<path d="M934 540 L969 540" fill="none" stroke="#b42318" stroke-width="2" marker-end="url(#r)"/>
+<path d="M1106 440 L1106 468" fill="none" stroke="#757b87" stroke-width="2" marker-end="url(#a)"/>
+<path d="M1241 540 L1276 540" fill="none" stroke="#757b87" stroke-width="2" marker-end="url(#a)"/>
+<path d="M1413 470 L1413 442" fill="none" stroke="#757b87" stroke-width="2" marker-end="url(#a)"/>
+<path d="M185 610 L185 642 L1106 642 L1106 612" fill="none" stroke="#2f5d50" stroke-width="2" stroke-dasharray="7 6" marker-end="url(#g)"/>
+<rect x="417" y="630" width="190" height="24" fill="#fafaf8"/>
+<text x="512" y="647" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#2f5d50" text-anchor="middle">one-time historical load</text>
+<rect x="50" y="670" width="1500" height="220" rx="16" fill="#ffffff" stroke="#e7e5df" stroke-width="1.5"/>
+<text x="74" y="708" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#2f5d50" text-anchor="start" letter-spacing="1.5">DATA QUALITY &amp; GOVERNANCE — applied across the pipeline</text>
+<rect x="70" y="730" width="276" height="136" rx="12" fill="#e8f0ed" stroke="#e8f0ed" stroke-width="1.5"/>
+<text x="88" y="768" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#244a40" text-anchor="start">Input constraints</text>
+<text x="88" y="800" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#454a54" text-anchor="start">Required fields and valid</text>
+<text x="88" y="824" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#454a54" text-anchor="start">dates enforced at the source</text>
+<rect x="366" y="730" width="276" height="136" rx="12" fill="#e8f0ed" stroke="#e8f0ed" stroke-width="1.5"/>
+<text x="384" y="768" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#244a40" text-anchor="start">Approval gate</text>
+<text x="384" y="800" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#454a54" text-anchor="start">Only reviewed records</text>
+<text x="384" y="824" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#454a54" text-anchor="start">can ever become valid</text>
+<rect x="662" y="730" width="276" height="136" rx="12" fill="#e8f0ed" stroke="#e8f0ed" stroke-width="1.5"/>
+<text x="680" y="768" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#244a40" text-anchor="start">Derived, not typed</text>
+<text x="680" y="800" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#454a54" text-anchor="start">Expiry set in the flow,</text>
+<text x="680" y="824" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#454a54" text-anchor="start">status derived in the model</text>
+<rect x="958" y="730" width="276" height="136" rx="12" fill="#e8f0ed" stroke="#e8f0ed" stroke-width="1.5"/>
+<text x="976" y="768" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#244a40" text-anchor="start">Access control</text>
+<text x="976" y="800" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#454a54" text-anchor="start">Central store with</text>
+<text x="976" y="824" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#454a54" text-anchor="start">permission-based access</text>
+<rect x="1254" y="730" width="276" height="136" rx="12" fill="#e8f0ed" stroke="#e8f0ed" stroke-width="1.5"/>
+<text x="1272" y="768" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#244a40" text-anchor="start">Documented</text>
+<text x="1272" y="800" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#454a54" text-anchor="start">Technical documentation</text>
+<text x="1272" y="824" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#454a54" text-anchor="start">and UML for handover</text>
+<text x="50" y="948" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#757b87" text-anchor="start">Illustrative diagram — simplified and anonymized. It does not show the company's actual system, data or configuration.</text>
+</svg>
