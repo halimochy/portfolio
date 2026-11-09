@@ -94,17 +94,10 @@ export const projects: Project[] = [
       "A central web application with a specialized UI that brings company systems together in one place and improves accessibility for users.",
     overview:
       "Cerea is a central web application that acts as the single entry point to the company's systems. As the frontend developer, I designed and built its specialized user interface — from wireframes and prototypes to responsive web pages — through continuous review cycles with the Digitalization Supervisor and Department Head.",
-    thumbnail: cover("it-helpdesk"),
-    thumbnailAlt: "Cerea central web application home page",
-    gallery: shots(
-      "it-helpdesk",
-      [
-        "Central web application home page with links to company applications",
-        "Application directory view",
-        "Responsive layout of the central web application",
-      ],
-      ["Central home page", "Application directory", "Responsive design"],
-    ),
+    thumbnail: cover("cerea"),
+    thumbnailAlt: "Cerea logo",
+    // Logo only: app screenshots are left out to keep company data private.
+    gallery: [{ src: cover("cerea"), alt: "Cerea logo", caption: "Cerea" }],
     technologies: ["React", "Vite", "JavaScript", "HTML", "CSS", "Wireframing", "Prototyping"],
     role: "Frontend Developer",
     duration: "Apr 2026 – Present",
