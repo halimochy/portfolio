@@ -110,7 +110,7 @@ export const projects: Project[] = [
         caption: "Employee portal — announcements and app cards",
       },
       {
-        src: `${base("cerea")}/cerea-app-flow.png`,
+        src: `${base("cerea")}/cerea-app-flow.svg`,
         alt: "Cerea end-to-end flow diagram covering sign-in, roles, portal and admin workspace",
         caption: "End-to-end flow — user, system and admin",
         fit: "contain",
