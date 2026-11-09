@@ -67,6 +67,8 @@ export interface ProjectImage {
   src: string;
   alt: string;
   caption?: string;
+  /** "contain" shows the whole image (e.g. tall diagrams) instead of cropping it to 16:10. */
+  fit?: "cover" | "contain";
 }
 
 export interface Project {

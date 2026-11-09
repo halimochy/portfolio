@@ -96,8 +96,26 @@ export const projects: Project[] = [
       "Cerea is a central web application that acts as the single entry point to the company's systems. As the frontend developer, I designed and built its specialized user interface — from wireframes and prototypes to responsive web pages — through continuous review cycles with the Digitalization Supervisor and Department Head.",
     thumbnail: cover("cerea"),
     thumbnailAlt: "Cerea logo",
-    // Logo only: app screenshots are left out to keep company data private.
-    gallery: [{ src: cover("cerea"), alt: "Cerea logo", caption: "Cerea" }],
+    // Screenshots use dummy data and Cerea branding only, to keep company data private.
+    gallery: [
+      {
+        src: `${base("cerea")}/loginpage.png`,
+        alt: "Cerea login page with username, password and Microsoft sign-in",
+        caption: "Login page — username/password or Microsoft sign-in",
+        fit: "contain",
+      },
+      {
+        src: `${base("cerea")}/portal.png`,
+        alt: "Cerea employee portal with announcements, frequently used apps and general apps",
+        caption: "Employee portal — announcements and app cards",
+      },
+      {
+        src: `${base("cerea")}/cerea-app-flow.png`,
+        alt: "Cerea end-to-end flow diagram covering sign-in, roles, portal and admin workspace",
+        caption: "End-to-end flow — user, system and admin",
+        fit: "contain",
+      },
+    ],
     technologies: ["React", "Vite", "JavaScript", "HTML", "CSS", "Wireframing", "Prototyping"],
     role: "Frontend Developer",
     duration: "Apr 2026 – Present",

@@ -21,7 +21,10 @@ export function ProjectGallery({ images }: { images: ProjectImage[] }) {
           fill
           priority={index === 0}
           sizes="(min-width: 1080px) 1016px, 100vw"
-          className="animate-fade-up object-cover"
+          className={cn(
+            "animate-fade-up",
+            current.fit === "contain" ? "object-contain p-2 sm:p-4" : "object-cover",
+          )}
         />
       </div>
 
@@ -32,6 +35,14 @@ export function ProjectGallery({ images }: { images: ProjectImage[] }) {
             {index + 1} / {images.length}
           </span>
         </figcaption>
+        <a
+          href={current.src}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="shrink-0 text-sm font-medium text-accent hover:underline"
+        >
+          Open full size
+        </a>
       </div>
 
       {images.length > 1 && (
@@ -55,7 +66,7 @@ export function ProjectGallery({ images }: { images: ProjectImage[] }) {
                   alt=""
                   fill
                   sizes="(min-width: 1080px) 330px, 33vw"
-                  className="object-cover"
+                  className={image.fit === "contain" ? "object-contain bg-surface p-1" : "object-cover"}
                 />
               </button>
             </li>
