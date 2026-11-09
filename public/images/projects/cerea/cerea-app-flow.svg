@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#4A5568"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#B42318"/></marker></defs>
+<rect width="1280" height="720" fill="#F7F9FB"/>
+<text x="16.0" y="28.0" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#12365F" text-anchor="start">Cerea Employee Portal — end-to-end flow</text>
+<text x="16.0" y="46.0" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#566176" text-anchor="start">From opening the site to the portal, and how the admin workspace shapes what each person sees</text>
+<rect x="16" y="58" width="1248" height="158" rx="14" fill="#E8F6F7"/>
+<path d="M16 72 a14 14 0 0 1 14 -14 H84 V216 H30 a14 14 0 0 1 -14 -14 Z" fill="#CDEBEE"/>
+<text x="50.0" y="135.0" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0B6F78" text-anchor="middle">EMPLOYEE</text>
+<text x="50.0" y="150.0" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#0B6F78" text-anchor="middle">/ USER</text>
+<rect x="16" y="222" width="1248" height="158" rx="14" fill="#F1F4F8"/>
+<path d="M16 236 a14 14 0 0 1 14 -14 H84 V380 H30 a14 14 0 0 1 -14 -14 Z" fill="#DDE3EC"/>
+<text x="50.0" y="299.0" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#34465F" text-anchor="middle">SYSTEM</text>
+<text x="50.0" y="314.0" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#34465F" text-anchor="middle">app + API + DB</text>
+<rect x="16" y="386" width="1248" height="158" rx="14" fill="#E9EFF8"/>
+<path d="M16 400 a14 14 0 0 1 14 -14 H84 V544 H30 a14 14 0 0 1 -14 -14 Z" fill="#D1DEF0"/>
+<text x="50.0" y="463.0" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#12365F" text-anchor="middle">ADMIN</text>
+<text x="50.0" y="478.0" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#12365F" text-anchor="middle">workspace</text>
+<rect x="101.2" y="109.5" width="128" height="55" rx="8" fill="#FFFFFF" stroke="#C5CEDB" stroke-width="1.2"/>
+<rect x="101.2" y="109.5" width="5" height="55" rx="2.5" fill="#0E9AA7"/>
+<text x="168.2" y="129.5" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F2A37" text-anchor="middle">1 Open the site</text>
+<text x="168.2" y="146.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">/login is public</text>
+<rect x="247.8" y="102.0" width="128" height="70" rx="8" fill="#FFFFFF" stroke="#C5CEDB" stroke-width="1.2"/>
+<rect x="247.8" y="102.0" width="5" height="70" rx="2.5" fill="#0E9AA7"/>
+<text x="314.8" y="122.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F2A37" text-anchor="middle">2 Sign in</text>
+<text x="314.8" y="139.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">username + password</text>
+<text x="314.8" y="154.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">or Microsoft</text>
+<rect x="540.8" y="102.0" width="128" height="70" rx="8" fill="#FFFFFF" stroke="#C5CEDB" stroke-width="1.2"/>
+<rect x="540.8" y="102.0" width="5" height="70" rx="2.5" fill="#0E9AA7"/>
+<text x="607.8" y="122.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F2A37" text-anchor="middle">4 Session saved</text>
+<text x="607.8" y="139.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">token + profile</text>
+<text x="607.8" y="154.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">kept in browser</text>
+<rect x="833.8" y="102.0" width="128" height="70" rx="8" fill="#FFFFFF" stroke="#C5CEDB" stroke-width="1.2"/>
+<rect x="833.8" y="102.0" width="5" height="70" rx="2.5" fill="#0E9AA7"/>
+<text x="900.8" y="122.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F2A37" text-anchor="middle">6 Browse portal</text>
+<text x="900.8" y="139.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">search, filter,</text>
+<text x="900.8" y="154.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">read announcements</text>
+<rect x="980.2" y="102.0" width="128" height="70" rx="8" fill="#FFFFFF" stroke="#C5CEDB" stroke-width="1.2"/>
+<rect x="980.2" y="102.0" width="5" height="70" rx="2.5" fill="#0E9AA7"/>
+<text x="1047.2" y="122.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F2A37" text-anchor="middle">7 Open an app</text>
+<text x="1047.2" y="139.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">opens in a new tab</text>
+<text x="1047.2" y="154.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">click is counted</text>
+<rect x="1126.8" y="109.5" width="128" height="55" rx="28" fill="#E3F6EC" stroke="#2FA36B" stroke-width="1.5"/>
+<text x="1190.8" y="129.5" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#14693F" text-anchor="middle">8 Log out</text>
+<text x="1190.8" y="146.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#14693F" text-anchor="middle">back to /login</text>
+<rect x="101.2" y="258.5" width="128" height="85" rx="9" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C9AAE" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="165.2" y="278.5" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#566176" text-anchor="middle">Microsoft option</text>
+<text x="165.2" y="295.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">pop-up returns the</text>
+<text x="165.2" y="310.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">work email; NIK is</text>
+<text x="165.2" y="325.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">read from it</text>
+<polygon points="458.2,255.0 512.2,301.0 458.2,347.0 404.2,301.0" fill="#FFF1C9" stroke="#E0A526" stroke-width="1.5"/>
+<text x="458.2" y="298.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#5C3B00" text-anchor="middle">Valid</text>
+<text x="458.2" y="312.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#5C3B00" text-anchor="middle">account?</text>
+<rect x="540.8" y="266.0" width="128" height="70" rx="8" fill="#FFFFFF" stroke="#C5CEDB" stroke-width="1.2"/>
+<rect x="540.8" y="266.0" width="5" height="70" rx="2.5" fill="#5B6B82"/>
+<text x="607.8" y="286.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F2A37" text-anchor="middle">3 Issue session</text>
+<text x="607.8" y="303.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">JWT, valid 8 hours</text>
+<text x="607.8" y="318.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">role + dept returned</text>
+<polygon points="751.2,255.0 805.2,301.0 751.2,347.0 697.2,301.0" fill="#FFF1C9" stroke="#E0A526" stroke-width="1.5"/>
+<text x="751.2" y="298.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#5C3B00" text-anchor="middle">Role is</text>
+<text x="751.2" y="312.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#5C3B00" text-anchor="middle">Admin?</text>
+<rect x="833.8" y="266.0" width="128" height="70" rx="8" fill="#FFFFFF" stroke="#C5CEDB" stroke-width="1.2"/>
+<rect x="833.8" y="266.0" width="5" height="70" rx="2.5" fill="#5B6B82"/>
+<text x="900.8" y="286.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F2A37" text-anchor="middle">5 Load portal</text>
+<text x="900.8" y="303.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">cards by role</text>
+<text x="900.8" y="318.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">+ department</text>
+<rect x="980.2" y="266.0" width="128" height="70" rx="8" fill="#FFFFFF" stroke="#C5CEDB" stroke-width="1.2"/>
+<rect x="980.2" y="266.0" width="5" height="70" rx="2.5" fill="#5B6B82"/>
+<text x="1047.2" y="286.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F2A37" text-anchor="middle">Save to MariaDB</text>
+<text x="1047.2" y="303.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">admin-only API,</text>
+<text x="1047.2" y="318.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">seen on next load</text>
+<rect x="1126.8" y="266.0" width="128" height="70" rx="9" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C9AAE" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="1190.8" y="286.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#566176" text-anchor="middle">Session expired?</text>
+<text x="1190.8" y="303.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">after 8 h the API</text>
+<text x="1190.8" y="318.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">says 401 → /login</text>
+<rect x="102.0" y="422.5" width="273.0" height="85" rx="9" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C9AAE" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="238.5" y="442.5" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#566176" text-anchor="middle">Admin workspace</text>
+<text x="238.5" y="459.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">sets what everyone sees: departments,</text>
+<text x="238.5" y="474.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">users &amp; roles, app cards, general apps,</text>
+<text x="238.5" y="489.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">announcements and priority</text>
+<rect x="395.0" y="422.5" width="273.0" height="85" rx="9" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C9AAE" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="531.5" y="442.5" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#566176" text-anchor="middle">Who sees an item?</text>
+<text x="531.5" y="459.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">Admin sees everything.</text>
+<text x="531.5" y="474.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">Others need a matching</text>
+<text x="531.5" y="489.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">role AND department.</text>
+<rect x="687.2" y="430.0" width="128" height="70" rx="8" fill="#FFFFFF" stroke="#C5CEDB" stroke-width="1.2"/>
+<rect x="687.2" y="430.0" width="5" height="70" rx="2.5" fill="#12365F"/>
+<text x="754.2" y="450.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F2A37" text-anchor="middle">A Admin home</text>
+<text x="754.2" y="467.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">totals of users,</text>
+<text x="754.2" y="482.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">cards, announcements</text>
+<rect x="833.8" y="430.0" width="128" height="70" rx="8" fill="#FFFFFF" stroke="#C5CEDB" stroke-width="1.2"/>
+<rect x="833.8" y="430.0" width="5" height="70" rx="2.5" fill="#12365F"/>
+<text x="900.8" y="450.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F2A37" text-anchor="middle">B Pick a tab</text>
+<text x="900.8" y="467.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">Departments, Users,</text>
+<text x="900.8" y="482.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">Cards, Announcements</text>
+<rect x="980.2" y="430.0" width="128" height="70" rx="8" fill="#FFFFFF" stroke="#C5CEDB" stroke-width="1.2"/>
+<rect x="980.2" y="430.0" width="5" height="70" rx="2.5" fill="#12365F"/>
+<text x="1047.2" y="450.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F2A37" text-anchor="middle">C Change data</text>
+<text x="1047.2" y="467.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">create, edit, delete</text>
+<text x="1047.2" y="482.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">form is validated</text>
+<rect x="1126.8" y="430.0" width="128" height="70" rx="8" fill="#FFFFFF" stroke="#C5CEDB" stroke-width="1.2"/>
+<rect x="1126.8" y="430.0" width="5" height="70" rx="2.5" fill="#12365F"/>
+<text x="1193.8" y="450.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F2A37" text-anchor="middle">D Users see it</text>
+<text x="1193.8" y="467.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">on their next</text>
+<text x="1193.8" y="482.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">page load</text>
+<path d="M229.2 137.0 L247.8 137.0" fill="none" stroke="#4A5568" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M375.8 137.0 L458.2 137.0 L458.2 255.0" fill="none" stroke="#4A5568" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M404.2 301.0 L311.8 301.0 L311.8 172.0" fill="none" stroke="#B42318" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="360.0" y="294.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#B42318" text-anchor="middle">No · error shown</text>
+<path d="M512.2 301.0 L540.8 301.0" fill="none" stroke="#4A5568" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="526.5" y="294.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#1B7F4B" text-anchor="middle">Yes</text>
+<path d="M604.8 266.0 L604.8 172.0" fill="none" stroke="#4A5568" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M668.8 301.0 L697.2 301.0" fill="none" stroke="#4A5568" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M805.2 301.0 L833.8 301.0" fill="none" stroke="#4A5568" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="819.5" y="294.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#B42318" text-anchor="middle">No</text>
+<path d="M751.2 347.0 L751.2 430.0" fill="none" stroke="#4A5568" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="757.2" y="392.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#1B7F4B" text-anchor="start">Yes</text>
+<path d="M897.8 266.0 L897.8 172.0" fill="none" stroke="#4A5568" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M961.8 137.0 L980.2 137.0" fill="none" stroke="#4A5568" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M1108.2 137.0 L1126.8 137.0" fill="none" stroke="#4A5568" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M1190.8 164.5 L1190.8 266.0" fill="none" stroke="#8C9AAE" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="5 4"/>
+<path d="M980.2 301.0 L961.8 301.0" fill="none" stroke="#4A5568" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#ah)"/>
+<path d="M815.2 465.0 L833.8 465.0" fill="none" stroke="#4A5568" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M961.8 465.0 L980.2 465.0" fill="none" stroke="#4A5568" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M1108.2 465.0 L1126.8 465.0" fill="none" stroke="#4A5568" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M1044.2 430.0 L1044.2 336.0" fill="none" stroke="#4A5568" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<rect x="16" y="552" width="1248" height="96" rx="14" fill="#FFFFFF" stroke="#C5CEDB" stroke-width="1.2"/>
+<text x="30.0" y="570.0" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1F2A37" text-anchor="start">RUNS THROUGHOUT — rules the platform always applies</text>
+<rect x="30.0" y="578" width="236.0" height="60" rx="8" fill="#F1F4F8"/>
+<text x="148.0" y="596.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F2A37" text-anchor="middle">Security</text>
+<text x="148.0" y="612.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">bcrypt-hashed passwords</text>
+<text x="148.0" y="626.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">JWT 8 h · admin-only API</text>
+<rect x="276.0" y="578" width="236.0" height="60" rx="8" fill="#F1F4F8"/>
+<text x="394.0" y="596.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F2A37" text-anchor="middle">Targeting</text>
+<text x="394.0" y="612.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">role + department filter</text>
+<text x="394.0" y="626.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">on cards and announcements</text>
+<rect x="522.0" y="578" width="236.0" height="60" rx="8" fill="#F1F4F8"/>
+<text x="640.0" y="596.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F2A37" text-anchor="middle">Click tracking</text>
+<text x="640.0" y="612.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">per-user counts</text>
+<text x="640.0" y="626.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">feed Frequently Used</text>
+<rect x="768.0" y="578" width="236.0" height="60" rx="8" fill="#F1F4F8"/>
+<text x="886.0" y="596.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F2A37" text-anchor="middle">Uploads</text>
+<text x="886.0" y="612.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">card icons are saved in</text>
+<text x="886.0" y="626.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">/uploads/icons</text>
+<rect x="1014.0" y="578" width="236.0" height="60" rx="8" fill="#F1F4F8"/>
+<text x="1132.0" y="596.0" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1F2A37" text-anchor="middle">Privacy</text>
+<text x="1132.0" y="612.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">Privacy Policy at /privacy</text>
+<text x="1132.0" y="626.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="middle">no ad trackers</text>
+<text x="16.0" y="676.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#566176" text-anchor="start">LEGEND</text>
+<rect x="72" y="662" width="44" height="20" rx="5" fill="#FFFFFF" stroke="#C5CEDB" stroke-width="1.2"/><rect x="72" y="662" width="4" height="20" rx="2" fill="#0E9AA7"/>
+<text x="124.0" y="676.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="start">Step</text>
+<polygon points="176,672 194,661 212,672 194,683" fill="#FFF1C9" stroke="#E0A526" stroke-width="1.3"/>
+<text x="220.0" y="676.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="start">Decision</text>
+<rect x="282" y="662" width="44" height="20" rx="6" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C9AAE" stroke-width="1.3" stroke-dasharray="5 4"/>
+<text x="334.0" y="676.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="start">Supporting detail</text>
+<rect x="440" y="662" width="44" height="20" rx="10" fill="#E3F6EC" stroke="#2FA36B" stroke-width="1.4"/>
+<text x="492.0" y="676.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="start">End</text>
+<path d="M540.0 672.0 L580.0 672.0" fill="none" stroke="#4A5568" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="588.0" y="676.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="start">Flow</text>
+<path d="M634.0 672.0 L674.0 672.0" fill="none" stroke="#4A5568" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#ah)"/>
+<text x="682.0" y="676.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="start">Side effect on the next load</text>
+<text x="16.0" y="705.0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#566176" text-anchor="start">Stack: React + Vite  ·  FastAPI + SQLAlchemy  ·  MariaDB (cerea)  ·  Microsoft sign-in is optional and needs Azure setup</text>
+</svg>
