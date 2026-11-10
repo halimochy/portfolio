@@ -11,20 +11,22 @@ export function Hero() {
     <section aria-labelledby="hero-heading" className="container pb-16 pt-10 sm:pb-24 sm:pt-20">
       <div className="grid items-center gap-12 lg:grid-cols-[1.25fr_1fr] lg:gap-16">
         <div>
-          <p
-            className="inline-flex animate-fade-up items-center gap-2 rounded-full border border-line bg-surface px-3.5 py-1.5 text-xs font-medium text-ink-soft"
-            style={delay(0)}
-          >
-            <span className="relative flex h-2 w-2" aria-hidden="true">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-50" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-accent" />
-            </span>
-            {profile.availability}
-          </p>
+          {profile.availability && (
+            <p
+              className="mb-6 inline-flex animate-fade-up items-center gap-2 rounded-full border border-line bg-surface px-3.5 py-1.5 text-xs font-medium text-ink-soft"
+              style={delay(0)}
+            >
+              <span className="relative flex h-2 w-2" aria-hidden="true">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-50" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-accent" />
+              </span>
+              {profile.availability}
+            </p>
+          )}
 
           <h1
             id="hero-heading"
-            className="mt-6 animate-fade-up font-display text-5xl font-medium leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl"
+            className="animate-fade-up font-display text-5xl font-medium leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl"
             style={delay(100)}
           >
             Hi, I&apos;m {profile.name}.

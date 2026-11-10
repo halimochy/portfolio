@@ -17,7 +17,8 @@ export interface Profile {
   /** Longer paragraphs used on the home page "About" block. */
   about: string[];
   location: string;
-  availability: string;
+  /** Optional badge above your name on the home page, e.g. "Open to new opportunities". Leave out to hide it. */
+  availability?: string;
   email: string;
   /** Path inside /public. Replace with your own photo (e.g. /images/profile.jpg). */
   avatar: string;

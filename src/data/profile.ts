@@ -15,7 +15,6 @@ export const profile: Profile = {
     "In my current role I extract data from SAP with Python, integrate it into SQL Server and Microsoft Fabric Lakehouse, build Power BI dashboards, automate workflows with Power Automate and develop responsive internal web applications. I work closely with supervisors, department heads and business users to gather requirements, validate data and keep improving each solution.",
   ],
   location: "Medan, North Sumatera, Indonesia",
-  availability: "Open to new opportunities",
   email: "nurhalimahnvr@gmail.com",
   avatar: "/images/profile.jpeg",
   avatarAlt: "Portrait of Nurhalimah",
