@@ -108,8 +108,15 @@ export const allProjects: Project[] = [
       },
       {
         src: `${base("cerea")}/portal.png`,
-        alt: "Cerea employee portal with announcements, frequently used apps and general apps",
-        caption: "Employee portal — announcements and app cards",
+        alt: "Cerea employee portal with announcements, notifications panel and frequently used apps",
+        caption: "Employee portal — announcements, notifications and frequently used apps",
+        fit: "contain",
+      },
+      {
+        src: `${base("cerea")}/portal-2.png`,
+        alt: "Cerea employee portal app directory with general apps and all apps filtered by category",
+        caption: "App directory — general apps and all apps by category",
+        fit: "contain",
       },
       {
         src: `${base("cerea")}/cerea-app-flow.svg`,

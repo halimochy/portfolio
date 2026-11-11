@@ -46,7 +46,12 @@ export function ProjectGallery({ images }: { images: ProjectImage[] }) {
       </div>
 
       {images.length > 1 && (
-        <ul className="mt-2 grid grid-cols-3 gap-3 sm:gap-4">
+        <ul
+          className={cn(
+            "mt-2 grid gap-3 sm:gap-4",
+            images.length === 2 ? "grid-cols-2" : images.length === 4 ? "grid-cols-4" : "grid-cols-3",
+          )}
+        >
           {images.map((image, i) => (
             <li key={image.src}>
               <button
