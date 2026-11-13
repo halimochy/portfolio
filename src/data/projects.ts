@@ -159,6 +159,7 @@ export const allProjects: Project[] = [
     ],
     outcomeSummary:
       "Cerea centralizes access to company systems and is continuously enhanced through review cycles with stakeholders.",
+    demo: "https://cereaa.netlify.app/",
   },
   {
     slug: "it-user-satisfaction",
